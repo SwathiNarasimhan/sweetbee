@@ -1345,15 +1345,36 @@ footer::after {
 	.hive-meet-cnt p {
 		font-size: 16px;
 	}
+	.news-cnt h6 {
+		min-height: auto;
+	}
+	.newsletter-form p::after {
+		right: 13px;
+	}
+	.newsletter-sec {
+		width: 97%;
+	}
+	.insta-holder {
+	padding: 94% 0 100px;
+}
+}
+@media screen and (max-width: 580px) {
+	.insta-holder {
+	padding: 124% 0 100px;
+}
 }
 @media screen and (max-width: 480px) {
-	
+	.insta-holder {
+	padding: 144% 0 100px;
+}
 }
 @media screen and (max-width: 414px) {
 	
 }
 @media screen and (max-width: 387px) {
-
+.insta-holder {
+	padding: 164% 0 100px;
+}
 }
 @media screen and (max-width: 375px) {
 
